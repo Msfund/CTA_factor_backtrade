@@ -1,0 +1,33 @@
+{
+	"basic_setting":
+	{
+	  "startcash": 1000000,
+	  "commission": 0.0005,
+	  "default_sizer": 1,
+	  "analyzer":{"DrawDown" : "DW"}
+
+
+	},
+
+	"data_setting":
+	{
+		"startdate": "20151231",
+		"path": "D:/backtrader/backtrader-master/CTA_factor_backtrade/mytest_strategy/testdata",
+		"file_ext" : "csv",
+		"filename": "CFE_vtsymbol_dom",
+		"vt": "('IC','IF','IH')"
+
+
+
+
+	},
+
+	"vtsymbol_setting":
+	{
+		"IF":{"pricetick": 0.2, "ordervaliday":3, "point_value":300},
+		"IH":{"pricetick": 0.2,"ordervaliday":3, "point_value": 300},
+		"IC":{"pricetick": 0.2,"ordervaliday":3, "point_value": 200}
+	}
+
+
+}

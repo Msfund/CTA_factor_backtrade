@@ -1,0 +1,8 @@
+read:
+	startdate, enddate, vt, excode, indicator_name
+
+write:
+	startdate, enddate, vt, excode, indicator, indicator_name, params
+
+
+	1、写入时，当仅仅是时间不一致时则更新，当params不一致时则覆盖
