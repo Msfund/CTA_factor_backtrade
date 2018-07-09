@@ -62,7 +62,7 @@ class CTA_setting_parse(object):
         CTA_datafeed_name = 'CTA_datafeed'.encode('utf-8')
         # if you have other data form, change the bt.feeds.pandafeed to your favour
         # you must cancel the lines in the dataserise or the lines will be overlap
-        self.CTA_datafeed = type(CTA_datafeed_name,(bt.feeds.PandasData,),{'lines':self.lines, 'params':self.data_params})
+        self.CTA_datafeed = type(CTA_datafeed_name.decode(),(bt.feeds.PandasData,),{'lines':self.lines, 'params':self.data_params})
         
         
 

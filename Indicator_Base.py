@@ -9,6 +9,7 @@ from CTA_factor_backtrade.CTA_base import CTA_setting_parse
 # import the data engine
 from getdata_project.HdfUtility import HdfUtility
 from getdata_project.HisDayData import HisDayData
+from getdata_project.dataUlt import EXT_Hdf_Path
 from CTA_factor_backtrade.ErrorType import NameError
 
 # import other package
